@@ -40,10 +40,12 @@ npm list -g --depth 0
     ```
     newman run <full file path with postman-collection-json filename> -e <full file path with postman-environment-json filename> -r htmlextra
     ```
+## Postman Collection Public URL
+```
+https://www.getpostman.com/collections/76a08c2d66be3399fd7e
+```
 
 ## Container execution
-1. Clone this repo to your local machine
-1. Change to repo directory
 1. Pull the Newman docker image using the command
     ```
     docker pull postman/newman
@@ -63,7 +65,7 @@ npm list -g --depth 0
     ```
 1. Run Newman commands on the image
     ```
-    docker run -t postman/newman run "https://www.postman.com/collections/8a0c9bc08f062d12dcda"
+    docker run -t postman/newman run "https://www.getpostman.com/collections/76a08c2d66be3399fd7e"
     ```
     Sample output
     ```
